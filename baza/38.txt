@@ -1,4 +1,4 @@
-X
+X0100
 Tryb działania AppArmor o nazwie "enforce" powoduje:
 	niemożność uruchomienia systemu operacyjnego bez podania hasła
 	wymuszanie profilu uprawnień dla wybranych aplikacji

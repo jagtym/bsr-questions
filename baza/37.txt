@@ -1,4 +1,4 @@
-X
+X0100
 Tryb działania AppArmor o nazwie "complain":
 	wyłącza standardowy model kontroli dostępu w systemie operacyjnym
 	powoduje brak wymuszania ograniczeń uprawnień zapisanych w profilu zabezpieczanej aplikacji

@@ -1,4 +1,4 @@
-X
+X0100
 Profil AppArmor to:
 	wynik działania funkcji API AppArmor, która analizuje komunikację IPC
 	plik tekstowy zawierający uprawnienia dla zabezpieczanej aplikacji

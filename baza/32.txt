@@ -1,4 +1,4 @@
-X
+X0001
 TACACS+ to:
 	najnowsza wersja implementacji serwera radius
 	rozszerzenie funkcjonalne serwera radius aby możliwe było zarządzenie urządzeniami firmy Cisco

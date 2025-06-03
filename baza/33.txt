@@ -1,4 +1,4 @@
-X
+X0001
 Rozwiązanie AppArmor to mechanizm dedykowany do zabezpieczania:
 	całego systemu operacyjnego
 	tylko programów działających w przestrzeni jądra systemowego

@@ -1,4 +1,4 @@
-X
+X0100
 Skrót NAS oznacza:
 	network access storage
 	network access server

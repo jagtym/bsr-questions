@@ -1,4 +1,4 @@
-X
+X1100
 Rozwiązanie AppArmor nie jest koncepcyjnie modelem zabezpieczeń:
 	RSBAC
 	IBAC (Identification-Based Access Control)
