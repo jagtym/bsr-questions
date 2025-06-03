@@ -1,4 +1,4 @@
-X
+X1111
 Polityka AppArmora pozwala dla konkretnej aplikacji zdefiniować:
 	zezwolenia na uruchamianie innych wybranych aplikacji w ramach tego samego profilu
 	zezwolenia na uruchamianie innych wybranych aplikacji w ramach innego profilu

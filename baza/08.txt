@@ -1,4 +1,4 @@
-X
+X0001
 W przypadku kontenerów środowiska Docker:
 	użytkownik root w kontenerze jest zawsze root-em w systemie gospodarza
 	użytkownik root w systemie gospodarza jest zawsze rootem w kontenerze

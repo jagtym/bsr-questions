@@ -1,4 +1,4 @@
-X
+X0010
 Środowisko Docker oferuje mechanizm potwierdzania autentyczności obrazów podpisywanych cyfrowo:
 	wszystkich obrazów z Docker Repository
 	tylko z wykorzystaniem własnego lokalnego urzędu certyfikującego

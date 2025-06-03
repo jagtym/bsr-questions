@@ -1,4 +1,4 @@
-X
+X1000
 HTTP Public Key Pinning
 	w przypadku wykorzystania skrótu tylko jednego klucza powoduje podatność serwera na atak DoS
 	wyklucza użycie w jakiejkolwiek przyszłości komunikacji niezaszyfrowanej z danym serwisem

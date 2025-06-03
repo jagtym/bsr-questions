@@ -1,4 +1,4 @@
-X
+X0001
 Do wywołania polecenia chroot potrzebne będą:
 	ustawienie flagi SUID
 	utworzenie specjalnego systemu plików 

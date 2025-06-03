@@ -1,4 +1,4 @@
-X
+X1100
 W celu dostosowania aplikacji do pracy z PAM konieczne jest:
 	skorzystanie z metod udostępnianych przez biblioteki PAM
 	skonfigurowanie polityki PAM dotyczącej danej aplikacji

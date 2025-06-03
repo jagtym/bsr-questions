@@ -1,4 +1,4 @@
-X
+X0100
 DNSsec chroni przed:
 	brakiem niezawodności bezpołączeniowego protokołu UDP stosowanego w DNS
 	naruszeniem autentyczności i integralności odpowiedzi DNS
