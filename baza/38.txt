@@ -3,5 +3,4 @@ Tryb działania AppArmor o nazwie "enforce" powoduje:
 	niemożność uruchomienia systemu operacyjnego bez podania hasła
 	wymuszanie profilu uprawnień dla wybranych aplikacji
 	niemożność uruchomienia zabezpieczanej aplikacji bez podania hasła
-	całkowite blokowanie komunikacji sieciowej dla wybranych zabezpieczanych
-	aplikacji bez względu na uprawnienia zapisane w profilach tych aplikacji
+	całkowite blokowanie komunikacji sieciowej dla wybranych zabezpieczanych aplikacji bez względu na uprawnienia zapisane w profilach tych aplikacji
