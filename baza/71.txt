@@ -1,4 +1,4 @@
-X
+X10
 Który opis dotyczy aplikacji związanej z chroot:
 	Aplikacja trzyma się twardych dowiązań poza poza sandboxem
 	Użytkownik root w sandboxie nie jest tym samym, co użytkownik OS root 

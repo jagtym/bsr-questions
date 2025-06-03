@@ -1,4 +1,4 @@
-X
+X11
 Wybierz, które z pułapek są związane z Kerberos
 	nielegalne (nieuprawnione) odtwarzanie TGT dla nieautoryzowanych serwisów
 	personifikacja serwerów

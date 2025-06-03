@@ -1,4 +1,4 @@
-X
+X1000
 Jakie informacje o koncie głównym posiada serwer kerberos:
 	tajny klucz symetryczny
 	Klucz publiczny

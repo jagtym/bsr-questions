@@ -1,4 +1,4 @@
-X
+X11
 Które z elementów iFrame może zostać dezaktywowany poprzez atrybuty sandboxa
 	rodzicielska ramka nawigacyjna
 	skrypty

@@ -1,4 +1,4 @@
-X
+X111
 Który mechanizm systemowy może zostać wykorzystany przez dockera do poprawienia pracy kontenerów:
 	przestrzeń nazw użytkownika
 	chroot
