@@ -1,4 +1,4 @@
-X
+X0110
 Do błędów zabezpieczeń aplikacji internetowych zaliczamy:
 	atak typu phishing
 	możliwość wstrzyknięcia kodu SQL

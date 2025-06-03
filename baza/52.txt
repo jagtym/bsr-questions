@@ -1,4 +1,4 @@
-X
+X10000
 Przy pomocy zasad grup można instalować oprogramowanie, jeśli:
 	jest dostępne na udostępnionym katalogu
 	użytkownik stanowiska nie wyraził sprzeciwu

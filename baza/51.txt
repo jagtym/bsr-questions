@@ -1,4 +1,4 @@
-X
+X10000
 Przy pomocy zasad grup można instalować oprogramowanie, jeśli:
 	oprogramowanie ma plik instalacyjny (.msi)
 	oprogramowanie posiada w instalatorze możliwość instalacji sieciowej

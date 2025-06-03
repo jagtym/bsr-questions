@@ -1,4 +1,4 @@
-X
+X1100
 Testy penetracyjne należy wykonywać, ponieważ:
 	każde oprogramowanie powinno zostać wszechstronnie przetestowane
 	odkrywane są coraz nowsze metody ataku

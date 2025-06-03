@@ -1,4 +1,4 @@
-X
+X0100
 Typowy atak SQL injection, który ma umożliwić wejście do systemu bez podawania hasła, to/Wskaż element ataku SQL injection, który może mieć na celu obejście uwierzytelniania:
 	' LIKE 'password'
 	' OR 1=1

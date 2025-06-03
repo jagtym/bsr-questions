@@ -1,4 +1,4 @@
-X
+X1000
 Które określenie najlepiej opisuje test typu gray-box:
 	tester posiada dokumentację oraz pewne informacje o architekturze systemu, ale nie zna kodu źródłowego
 	tester nie wie nic o systemie przed przystąpieniem do testu
