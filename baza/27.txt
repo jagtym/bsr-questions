@@ -1,4 +1,4 @@
-X
+X0001
 Radius to:
 	scentralizowany system zarządzający pracą punktów dostępowych WIFI
 	rodzaj systemu operacyjnego dla urządzeń sieciowych

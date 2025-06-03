@@ -1,4 +1,4 @@
-X
+X0001
 Hasło użytkownika przesyłane w zapytaniu Access-Request protokołu Radius:
 	nie podlega żadnej ochronie
 	podlega ochronie z użyciem funkcji skrótu SHA512

@@ -1,4 +1,4 @@
-X
+X00110
 Rekord DNSKEY służy do:
 	podpisane są nim rekordy typu RRSIG
 	przechowywania podpisu całej strefy

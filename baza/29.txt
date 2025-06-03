@@ -1,4 +1,4 @@
-X
+X0010
 Czy dowolne urządzenie może korzystać z serwera radius w celu realizacji modelu bezpieczeństwa AAA?
 	nie, każde z urządzeń korzystających z serwera radius musi posiadać certyfikat cyfrowy podpisany przez zaufane CA
 	tak, wystarczy wskazać w konfiguracji adres IP serwera radius

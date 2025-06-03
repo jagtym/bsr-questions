@@ -1,4 +1,4 @@
-X
+X0010
 Radius wykorzystuje komunikację sieciową opartą o protokół
 	TCP
 	ESP

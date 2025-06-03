@@ -1,6 +1,6 @@
-X
+X0100
 W bazie DNSsec, wpis DNSKEY służy do:
 	klucza publicznego wykorzystywanego do podpisywania wybranych rekordów
-	klucza publicznego wykorzystywanego do podpisywania wszystkich rekordów 
+	klucza publicznego wykorzystywanego do podpisywania wszystkich rekordów
 	przechowywania klucza szyfrującego odpowiedzi DNS
 	klucza według którego prowadzony jest proces rozwiązywania nazw domenowych

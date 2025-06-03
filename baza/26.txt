@@ -1,4 +1,4 @@
-X
+X00010
 TSIG to:
 	Podpis cyfrowy każdego rekordu strefy
 	Podpis cyfrowy specjalnego rekordu RRSIG

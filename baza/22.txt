@@ -1,4 +1,4 @@
-X
+X01000
 DNSSEC. ZSK to:
 	Klucz przesyłany do nadrzędnego DNSa
 	Klucz do podpisywania wszystkich rekordów strefy

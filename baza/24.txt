@@ -1,4 +1,4 @@
-X
+X1000
 DNSSEC. KSK to:
 	klucz przesyłany do nadrzędnego DNS-a
 	klucz do podpisywania całego pliku strefy

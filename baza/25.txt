@@ -1,4 +1,4 @@
-X
+X00100
 Rekord RRSIG służy do:
 	przechowywanie klucza prywatnego, którym podpisana jest strefa
 	przechowywania podpisu całej strefy
