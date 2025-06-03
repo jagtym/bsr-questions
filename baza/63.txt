@@ -1,4 +1,4 @@
-X
+X1111
 Mechanizmem PAM można skonfigurować (wybierz jedną lub więcej):
 	Ograniczenia czasowe dostępu do systemu operacyjnego
 	procedurę zmiany danych uwierzytelniających 

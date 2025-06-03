@@ -1,4 +1,4 @@
-X
+X1001
 Wskaż opisy dotyczące podatności XXE (External XML Entity):
 	wynikają z niefrasobliwej obsługi przez parser XML encji odwołujących się np. do systemu plików
 	dotyczą ciasteczek XML 5 Global Storage Cookies

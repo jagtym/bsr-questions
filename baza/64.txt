@@ -1,4 +1,4 @@
-X
+X0001
 Nazwa domenowa komputera a nazwa domeny Kerberos
 	to ten sam parametr
 	Musi być identyczna

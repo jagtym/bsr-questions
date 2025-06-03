@@ -1,4 +1,4 @@
-X
+X0001
 Jakie restrykcje wprowadza flaga Secure w definicji ciasteczka WWW?
 	dostęp do ciasteczka ma tylko oryginalna strona, która utworzyła ciasteczko
 	ciasteczko musiało zostać sprawdzone przez filtr SOP

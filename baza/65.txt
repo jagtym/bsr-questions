@@ -1,4 +1,4 @@
-X
+X0101
 Które z wymienionych elementów są zawsze (bezwzględnie) współdzielone pomiędzy aplikacjami uruchomionymi w kontenerach dockera i aplikacjami bezpośrednio w systemie operacyjnym (Wybierz jedną lub więcej):
 	system plików
 	przestrzeń identyfikatorów użytkowników

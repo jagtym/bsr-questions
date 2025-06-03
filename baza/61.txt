@@ -1,4 +1,4 @@
-X
+X11
 Reverse shell
 	wymaga serwera nasłuchującego na hoście atakującego w celu odebrania połączenia z atakowanego systemu
 	pozwala obejść reguły zapór sieciowych blokujące połączenia przychodzące 
