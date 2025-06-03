@@ -1,6 +1,6 @@
-X
+X1010
 Które z wymienionych mechanizmów objęte są ochroną Same Origin Policy:
 	iFrames
 	dostęp do ciasteczek Secure
-	Ajax (np. XMLHttpRequest, FetchAPI) 
+	Ajax (np. XMLHttpRequest, FetchAPI)
 	dostęp do ciasteczek HTTPOnly

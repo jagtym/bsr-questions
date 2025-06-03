@@ -1,4 +1,4 @@
-X
+X011110
 Reguły ModSecurity:
 	mogą dynamicznie modyfikować reguły iptables
 	mogą przekierowywać żądania HTTP pod inne adresy

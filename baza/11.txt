@@ -1,4 +1,4 @@
-X
+X0011
 Poprawnie działający mechanizm Same Origin Policy:
 	uniemożliwia atak SQLi dokonywany przez użytkownika
 	chroni aplikacją internetową przed atakiem Cross-Site Request Forgery

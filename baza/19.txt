@@ -1,4 +1,4 @@
-X
+X1010
 Mechanizm PAM jest:
 	scentralizowanym mechanizmem uwierzytelniania umożliwiającym rozdzielenie kodu aplikacji i polityki bezpieczeństwa
 	międzyplatformowym (Linux/Windows) mechanizmem uwierzytelniania

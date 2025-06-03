@@ -1,4 +1,4 @@
-X
+X0110
 W przypadku środowiska AppArmor:
 	root może obchodzić wszelkie ograniczenia nałożone przez profil na aplikację
 	każdą politykę można definiować "od zera" zwykłym edytorem tekstowym, bez potrzeby wykorzystywania dedykowanych narzędzi AppArmora

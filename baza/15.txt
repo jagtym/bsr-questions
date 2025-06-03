@@ -1,4 +1,4 @@
-X
+X0100
 Mechanizm chroot nie będzie skuteczny w przypadku:
 	separacji uprawnień poprzez zmianę katalogu głównego działającego programu
 	uwięzienia procesu działającego na prawach superużytkownika (root)

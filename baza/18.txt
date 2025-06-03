@@ -1,4 +1,4 @@
-X
+X010110
 Wskaż funkcje języka JavaScript, które potencjalnie pozwalają wykonać dowolny kod tego języka przekazany jako argument:
 	prompt
 	eval

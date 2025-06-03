@@ -1,4 +1,4 @@
-X
+X0111
 Kerberos:
 	dane uwierzytelniające użytkowników przechowuje w plikach /etc/passwd oraz /etc/shadow
 	jest implementacją koncepcji SSO
