@@ -1,4 +1,4 @@
-X
+X1000
 W RSBAC, czy każdy program może zmienić uprawnienia na inne niż te, na których został uruchomiony?
 	zgodę wydaje oficer bezpieczeństwa modyfikując odpowiednio politykę bezpieczeństwa
 	bezwzględnie nie

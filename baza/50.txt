@@ -1,4 +1,4 @@
-X
+X01000
 Zasady grup umożliwiają:
 	wymuszenie stosowania tunelu VPN w komunikacji z serwerem AD
 	wprowadzenia określonej konfiguracji komputera/pulpitu dla użytkownika/komputera

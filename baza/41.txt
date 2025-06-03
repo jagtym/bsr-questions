@@ -1,4 +1,4 @@
-X
+X1010
 Czy RSBAC to:
 	zestaw rozszerzający kontrolę uprawnień
 	poprawnie skonfigurowana polityka bezpieczeństwa

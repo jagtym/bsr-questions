@@ -1,4 +1,4 @@
-X
+X00100
 GPO to:
 	Grupy Polityk Obiektów
 	Polityki Obiektów Grupowych

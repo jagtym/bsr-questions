@@ -1,4 +1,4 @@
-X
+X11000
 Czy możliwe jest (przy pomocy zasad grup):
 	Zablokowanie dostępu do aplikacji zainstalowanych przez użytkowników
 	 Usunięcie elementu Menu Start

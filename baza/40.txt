@@ -1,4 +1,4 @@
-X
+X0101
 Change Hat:
 	specjalne polecenie wydawane przez administratora systemu w celu zmiany profilu uprawnień dla zabezpieczanej aplikacji
 	pozwala na dynamiczną zmianę uprawnień w trakcie działania zabezpieczonego programu

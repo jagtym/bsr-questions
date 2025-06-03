@@ -1,4 +1,4 @@
-X
+X0100
 W RSBAC, czy można zmienić uprawnienia do katalogu dla programu podczas jego działania?
 	nie jest to określone
 	istnieją takie możliwości
