@@ -1,0 +1,6 @@
+X
+Mechanizm TSIG w systemie DNSSEC wykorzystuje:
+	współdzielony tajny klucz
+	protokół TLS do transferu stref
+	parę kluczy asymetrycznych
+	funkcję mieszającą Diffiego-Hellmana

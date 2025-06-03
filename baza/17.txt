@@ -1,0 +1,6 @@
+X
+W przypadku środowiska AppArmor:
+	root może obchodzić wszelkie ograniczenia nałożone przez profil na aplikację
+	każdą politykę można definiować "od zera" zwykłym edytorem tekstowym, bez potrzeby wykorzystywania dedykowanych narzędzi AppArmora
+	możliwe jest uruchomienie dowolnego istniejącego profilu w trybie uczenia się, w którym restrykcje zdefiniowane w tym profilu nie są egzekwowane
+	można uruchomić pojedynczy profil w trybie uczenia się, ale i tak wszystkie dotychczasowe restrykcje polityki AppArmora będą wymuszane

@@ -1,0 +1,6 @@
+X
+W RSBAC, czy można zmienić uprawnienia do katalogu dla programu podczas jego działania?
+	nie jest to określone
+	istnieją takie możliwości
+	nie
+	jeśli program posiada taką możliwość (programista uwzględnił taką opcję)

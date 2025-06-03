@@ -1,0 +1,6 @@
+X
+Change Hat:
+	specjalne polecenie wydawane przez administratora systemu w celu zmiany profilu uprawnień dla zabezpieczanej aplikacji
+	pozwala na dynamiczną zmianę uprawnień w trakcie działania zabezpieczonego programu
+	specjalny typ uprawnień w AppArmor
+	to nazwa funkcji API rozwiązania AppArmor

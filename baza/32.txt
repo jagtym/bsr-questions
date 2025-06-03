@@ -1,0 +1,6 @@
+X
+TACACS+ to:
+	najnowsza wersja implementacji serwera radius
+	rozszerzenie funkcjonalne serwera radius aby możliwe było zarządzenie urządzeniami firmy Cisco
+	nierozwijana już implementacja serwera radius
+	alternatywne rozwiązanie implementujące model bezpieczeństwa AAA

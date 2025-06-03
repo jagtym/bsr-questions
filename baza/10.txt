@@ -1,0 +1,6 @@
+X
+DNSsec chroni przed:
+	brakiem niezawodności bezpołączeniowego protokołu UDP stosowanego w DNS
+	naruszeniem autentyczności i integralności odpowiedzi DNS
+	atakami DoS na serwery root DNS
+	podsłuchiwaniem zapytań DNS

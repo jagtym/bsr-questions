@@ -1,0 +1,6 @@
+X
+Które elementy aplikacji Web podlegają ochronie przez politykę SOP w przeglądarce:
+	komunikację między obiektami poprzez XMLHttpRequest
+	dostęp do ciasteczek ustawionych w innych dokumentach niezależnie od ich atrybuty domain
+	dostęp do elementów DOM w innych dokumentach
+	wywołania skryptów, w zależności od ich pochodzenia

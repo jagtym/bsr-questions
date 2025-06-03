@@ -1,0 +1,6 @@
+X
+Wskaż opisy dotyczące podatności XXE (External XML Entity):
+	wynikają z niefrasobliwej obsługi przez parser XML encji odwołujących się np. do systemu plików
+	dotyczą ciasteczek XML 5 Global Storage Cookies
+	powstają zarówno w plikach XML, jak i XHTML
+	występują zarówno w plikach XML, jak i XHTML

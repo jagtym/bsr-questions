@@ -1,0 +1,6 @@
+X
+Które z wymienionych elementów zawsze (bezwzględnie) współdzielone pomiędzy aplikacjami uruchomionymi w kontenerach dockera I aplikacjami bezpośrednio w systemie operacyjnym:
+	jądro systemu operacyjnego
+	system plików
+	przestrzeń Identyfikatorów użytkowników
+	przestrzeń Identyfikatorów procesów

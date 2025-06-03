@@ -1,0 +1,6 @@
+X
+HTTP Public Key Pinning
+	w przypadku wykorzystania skrótu tylko jednego klucza powoduje podatność serwera na atak DoS
+	wyklucza użycie w jakiejkolwiek przyszłości komunikacji niezaszyfrowanej z danym serwisem
+	chroni dodatkowym kodem PIN klucze prywatne wykorzystywane do uwierzytelniania metodą HTTP Digest
+	rozwiązuje problem przeterminowanych certyfikatów ustawiając w przeglądarce sztywny limit czasu przechowywania certyfikatu klucza publicznego danego serwera

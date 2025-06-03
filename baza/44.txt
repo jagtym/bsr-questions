@@ -1,0 +1,6 @@
+X
+Dlaczego do konfiguracji RSBAC'a wykorzystujemy użytkownika “secoff” o id=400 (lub innym)?
+	jest to konto administratora tylko o innym id
+	aby haker po włamaniu musiał korzystać z polecenia su, aby zmienić politykę bezpieczeństwa
+	aby konto administratora było niepotrzebne
+	aby rozdzielić funkcje administratora systemu i osoby odpowiedzialnej za bezpieczeństwo

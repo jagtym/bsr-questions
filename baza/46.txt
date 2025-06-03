@@ -1,0 +1,7 @@
+X
+Usługa Active Directory to:
+	usługa zbierania informacji o ruchu sieciowym
+	usługa zarządzania zainstalowanym oprogramowaniem
+	usługa prezentacji logów systemowych
+	usługa katalogowa
+	usługa wymuszająca stosowania kryptografii asymetrycznej

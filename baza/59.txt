@@ -1,0 +1,6 @@
+X
+Do błędów zabezpieczeń aplikacji internetowych zaliczamy:
+	atak typu phishing
+	możliwość wstrzyknięcia kodu SQL
+	możliwość wykonania złośliwego kodu JavaScript
+	atak typu man-in-the-middle

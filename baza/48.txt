@@ -1,0 +1,7 @@
+X
+GPO to:
+	Grupy Polityk Obiektów
+	Polityki Obiektów Grupowych
+	Obiekty Zasad Grup
+	Zasady Obiektów Grupowych
+	Grupy Zasad Obiektów

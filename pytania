@@ -1,0 +1,558 @@
+X
+Proszę wskazać wszystkie te zasoby, które należą do tego samego źródła pochodzenia Web Origin (w kontekście Same Origin Policy), co którykolwiek z pozostałych:
+	https://login.victim.com/, którego document.domain = “login.victim.com”
+	http://victim.com/, którego document.domain = “victim.com”
+	http://blog.victim.com/, którego document.domain = “blog.victim.com”
+	http://cdn.victim.com/, którego document.domain = “victim.com”
+
+X
+HTTP Public Key Pinning
+	w przypadku wykorzystania skrótu tylko jednego klucza powoduje podatność serwera na atak DoS
+	wyklucza użycie w jakiejkolwiek przyszłości komunikacji niezaszyfrowanej z danym serwisem
+	chroni dodatkowym kodem PIN klucze prywatne wykorzystywane do uwierzytelniania metodą HTTP Digest
+	rozwiązuje problem przeterminowanych certyfikatów ustawiając w przeglądarce sztywny limit czasu przechowywania certyfikatu klucza publicznego danego serwera
+
+X
+Środowisko Docker pozwala
+	związać z uruchamianym kontenerem wybrany profil AppArmor
+	współdzielić między gospodarzem a kontenerem wybrany fragment systemu plików
+	propagować do kontenera ruch TCP i/lub UDP przychodzący na wybrane porty gospodarza
+	przydzielić kontenerowi wybrane systemowe uprawnienia administracyjne (capabilities)
+
+X
+Środowisko Docker oferuje mechanizm potwierdzania autentyczności obrazów podpisywanych cyfrowo:
+	wszystkich obrazów z Docker Repository
+	tylko z wykorzystaniem własnego lokalnego urzędu certyfikującego
+	poprzez usługę Docker Notary
+	nie oferuje takiej funkcjonalności
+
+X
+Do wywołania polecenia chroot potrzebne będą:
+	ustawienie flagi SUID
+	utworzenie specjalnego systemu plików 
+	przynależność do grupy chroot
+	uprawnienia superużytkownika (root) 
+
+X
+Które z poniższych przypadków mogą potencjalnie skutkować bezpośrednim zagrożeniem dla uwierzytelniania w usłudze www:
+	użycie HTTP Basic Authentication
+	podatność SQLi w formularzu logowania
+	javascript obfuscation
+	pozyskanie ciasteczek danej domeny
+
+X
+W celu dostosowania aplikacji do pracy z PAM konieczne jest:
+	skorzystanie z metod udostępnianych przez biblioteki PAM
+	skonfigurowanie polityki PAM dotyczącej danej aplikacji
+	samodzielna implementacja metod uwierzytelniania w aplikacji
+	posiadanie zaufanej trzeciej strony
+
+X
+W przypadku kontenerów środowiska Docker:
+	użytkownik root w kontenerze jest zawsze root-em w systemie gospodarza
+	użytkownik root w systemie gospodarza jest zawsze rootem w kontenerze
+	wszystkie kontenery uruchomione na tym samym gospodarzu zawsze widzą się nawzajem przez wewnętrzną sieć Docker
+	aplikacja uruchomiona w kontenerze może działać w ramach dowolnego konta użytkownika (nie tylko root)
+
+X
+Polityka AppArmora pozwala dla konkretnej aplikacji zdefiniować:
+	zezwolenia na uruchamianie innych wybranych aplikacji w ramach tego samego profilu
+	zezwolenia na uruchamianie innych wybranych aplikacji w ramach innego profilu
+	prawa dostępu aplikacji do poszczególnych zasobów
+	wybrane systemowe uprawnienia administracyjne (capabilities) przydzielane procesowi aplikacyjnemu
+
+X
+DNSsec chroni przed:
+	brakiem niezawodności bezpołączeniowego protokołu UDP stosowanego w DNS
+	naruszeniem autentyczności i integralności odpowiedzi DNS
+	atakami DoS na serwery root DNS
+	podsłuchiwaniem zapytań DNS
+
+X
+Poprawnie działający mechanizm Same Origin Policy:
+	uniemożliwia atak SQLi dokonywany przez użytkownika
+	chroni aplikacją internetową przed atakiem Cross-Site Request Forgery
+	może być sterowany przez pewne pola nagłówka protokołu HTTP
+	uniemożliwia kradzież ciasteczek przez skrypty pochodzące z innej domeny
+
+X
+Kerberos:
+	dane uwierzytelniające użytkowników przechowuje w plikach /etc/passwd oraz /etc/shadow
+	jest implementacją koncepcji SSO
+	do działania wymaga utworzenia bazy kluczy
+	jest systemem uwierzytelniania z zaufaną trzecią stroną
+
+X
+Reguły ModSecurity:
+	mogą dynamicznie modyfikować reguły iptables
+	mogą przekierowywać żądania HTTP pod inne adresy
+	mogą być dopasowane do nadchodzących żądań HTTP na podstawie treści żądania
+	mogą być dopasowane do nadchodzących żądań HTTP na podstawie wartości pól nagłówka
+	mogą blokować odpowiedzi HTTP na podstawie wartości pól nagłówka
+	nie mogą uwzględniać stanu sesji lub innych relacji pomiędzy kolejnymi żądaniami, gdyż operują na pojedynczych żądaniach (HTTP jest protokołem bezstanowym)
+
+X
+Snort pozwala na:
+	dynamiczne tworzenie reguł
+	generowanie alertów
+	logowanie pakietów
+	dynamiczne wykorzystanie zapory sieciowej
+
+X
+Mechanizm chroot nie będzie skuteczny w przypadku:
+	separacji uprawnień poprzez zmianę katalogu głównego działającego programu
+	uwięzienia procesu działającego na prawach superużytkownika (root)
+	uruchamiania aplikacji 32-bit na procesorach 64-bit
+	testowania aplikacji przez ataki XSS
+
+X
+Które z wymienionych mechanizmów objęte są ochroną Same Origin Policy:
+	iFrames
+	dostęp do ciasteczek Secure
+	Ajax (np. XMLHttpRequest, FetchAPI) 
+	dostęp do ciasteczek HTTPOnly
+
+X
+W przypadku środowiska AppArmor:
+	root może obchodzić wszelkie ograniczenia nałożone przez profil na aplikację
+	każdą politykę można definiować "od zera" zwykłym edytorem tekstowym, bez potrzeby wykorzystywania dedykowanych narzędzi AppArmora
+	możliwe jest uruchomienie dowolnego istniejącego profilu w trybie uczenia się, w którym restrykcje zdefiniowane w tym profilu nie są egzekwowane
+	można uruchomić pojedynczy profil w trybie uczenia się, ale i tak wszystkie dotychczasowe restrykcje polityki AppArmora będą wymuszane
+
+X
+Wskaż funkcje języka JavaScript, które potencjalnie pozwalają wykonać dowolny kod tego języka przekazany jako argument:
+	prompt
+	eval
+	alert
+	setInterval
+	setTimeout
+	document.cookie()
+
+X
+Mechanizm PAM jest:
+	scentralizowanym mechanizmem uwierzytelniania umożliwiającym rozdzielenie kodu aplikacji i polityki bezpieczeństwa
+	międzyplatformowym (Linux/Windows) mechanizmem uwierzytelniania
+	API dostępnym w systemach Linux, Solaris, BSD
+	międzyplatformowym (Linux/Windows) mechanizmem autoryzacji
+
+
+X
+W bazie DNSsec, wpis DNSKEY służy do:
+	klucza publicznego wykorzystywanego do podpisywania wybranych rekordów
+	klucza publicznego wykorzystywanego do podpisywania wszystkich rekordów 
+	przechowywania klucza szyfrującego odpowiedzi DNS
+	klucza według którego prowadzony jest proces rozwiązywania nazw domenowych
+
+X
+Narzędzie nmap:
+	pozwala wykonać rekonesans infrastruktury sieciowej przez skanowanie
+	wykorzystuje skrypty i moduły pozwalający na przeprowadzenie dokładnego fingerprintingu usług sieciowych
+	jest transparentnym proxy HTTP pozwalającym na przechwytywanie i modyfikację zapytań HTTP
+	pozwala na przechwytywanie ruchu HTTPS po zainstalowaniu odpowiedniego certyfikatu
+
+X
+DNSSEC. ZSK to:
+	Klucz przesyłany do nadrzędnego DNSa
+	Klucz do podpisywania wszystkich rekordów strefy
+	podpis cyfrowy pliku strefy
+	podpis cyfrowy klucza KSK
+	klucz do podpisywania całego pliku strefy
+
+X
+Rekord DNSKEY służy do:
+	podpisane są nim rekordy typu RRSIG
+	przechowywania podpisu całej strefy
+	przechowywania klucza publicznego
+	podpisane są nim wszystkie rekordy pliku strefy
+	przechowywanie klucza prywatnego
+
+X
+DNSSEC. KSK to:
+	klucz przesyłany do nadrzędnego DNS-a
+	klucz do podpisywania całego pliku strefy
+	podpis cyfrowy klucza ZSK
+	podpis cyfrowy pliku strefy
+
+X
+Rekord RRSIG służy do:
+	przechowywanie klucza prywatnego, którym podpisana jest strefa
+	przechowywania podpisu całej strefy
+	przechowywania podpisu konkretnego rekordu
+	przechowywania klucza publicznego oraz jego podpisu (przez wyższego DNS'a)
+	przechowywania klucza publicznego, którym podpisana jest strefa
+
+X
+TSIG to:
+	Podpis cyfrowy każdego rekordu strefy
+	Podpis cyfrowy specjalnego rekordu RRSIG
+	Klucz ZSK
+	Cyfrowy podpis pliku strefy
+	Klucz KSK
+
+X
+Radius to:
+	scentralizowany system zarządzający pracą punktów dostępowych WIFI
+	rodzaj systemu operacyjnego dla urządzeń sieciowych
+	rozproszony system uwierzytelniania
+	scentralizowany system implementujący model bezpieczeństwa AAA
+
+X
+Radius wykorzystuje komunikację sieciową opartą o protokół
+	TCP
+	ESP
+	UDP
+	ICMP
+
+X
+Czy dowolne urządzenie może korzystać z serwera radius w celu realizacji modelu bezpieczeństwa AAA?
+	nie, każde z urządzeń korzystających z serwera radius musi posiadać certyfikat cyfrowy podpisany przez zaufane CA
+	tak, wystarczy wskazać w konfiguracji adres IP serwera radius
+	tak, każde z urządzeń korzystających z serwera radius musi znać współdzieloną z serwerem radius tajną informację
+	nie, każde z urządzeń korzystających z serwera radius musi posiadać lokalne konto o nazwie radius aby móc połączyć się z serwerem radius
+
+X
+Hasło użytkownika przesyłane w zapytaniu Access-Request protokołu Radius:
+	nie podlega żadnej ochronie
+	podlega ochronie z użyciem funkcji skrótu SHA512
+	podlega ochronie z użyciem algorytmu 3DES
+	podlega ochronie z użyciem funkcji skrótu MD5
+
+X
+Skrót NAS oznacza:
+	network access storage
+	network access server
+	network authorization service
+	network accounting service
+
+X
+TACACS+ to:
+	najnowsza wersja implementacji serwera radius
+	rozszerzenie funkcjonalne serwera radius aby możliwe było zarządzenie urządzeniami firmy Cisco
+	nierozwijana już implementacja serwera radius
+	alternatywne rozwiązanie implementujące model bezpieczeństwa AAA
+
+X
+Rozwiązanie AppArmor to mechanizm dedykowany do zabezpieczania:
+	całego systemu operacyjnego
+	tylko programów działających w przestrzeni jądra systemowego
+	tylko aplikacji sieciowych
+	tylko wybranych aplikacji
+
+X
+Rozwiązanie AppArmor nie jest koncepcyjnie modelem zabezpieczeń:
+	RSBAC
+	IBAC (Identification-Based Access Control)
+	MAC
+	DAC
+
+X
+Profil AppArmor to:
+	wynik działania funkcji API AppArmor, która analizuje komunikację IPC
+	plik tekstowy zawierający uprawnienia dla zabezpieczanej aplikacji
+	program wykonywalny, który analizuje wywołania funkcji systemowych zabezpieczanej aplikacji
+	specjalne uprawnienie dla zabezpieczanej aplikacji
+
+X
+Profil AppArmor
+	automatycznie wygenerowany log zawierający wywołania systemowe monitorowanej aplikacji
+	program analizujący wywołania funkcji systemowych monitorującej aplikacji
+	część polityk AppArmor związana z konkretną aplikacją
+	plik tekstowy definiujący uprawnienia wybranej aplikacji
+
+
+X
+Tryb działania AppArmor o nazwie "complain":
+	wyłącza standardowy model kontroli dostępu w systemie operacyjnym
+	powoduje brak wymuszania ograniczeń uprawnień zapisanych w profilu zabezpieczanej aplikacji
+	wyłącza działanie mechanizmu AppArmor w systemie operacyjnym
+	powoduje wypisywanie informacji diagnostycznych AppArmor na terminal użytkownika
+
+X
+Tryb działania AppArmor o nazwie "enforce" powoduje:
+	niemożność uruchomienia systemu operacyjnego bez podania hasła
+	wymuszanie profilu uprawnień dla wybranych aplikacji
+	niemożność uruchomienia zabezpieczanej aplikacji bez podania hasła
+	całkowite blokowanie komunikacji sieciowej dla wybranych zabezpieczanych
+	aplikacji bez względu na uprawnienia zapisane w profilach tych aplikacji
+
+X
+Czy należy zawsze zmodyfikować aplikacje, które mają podlegać ochronie rozwiązaniem AppArmor:
+	nie, administrator podczas instalacji każdej zabezpieczanej aplikacji ma możliwość dynamicznej modyfikacji aplikacji i przystosowania jej do współpracy z AppArmor
+	nie, nie zawsze trzeba przystosowywać aplikację do współpracy z AppArmor
+	nie, nigdy nie należy modyfikować zabezpieczanej aplikacji aby współpracowała z AppArmor
+	tak, zawsze trzeba przystosować zabezpieczaną aplikację do współpracy z AppArmor
+
+X
+Change Hat:
+	specjalne polecenie wydawane przez administratora systemu w celu zmiany profilu uprawnień dla zabezpieczanej aplikacji
+	pozwala na dynamiczną zmianę uprawnień w trakcie działania zabezpieczonego programu
+	specjalny typ uprawnień w AppArmor
+	to nazwa funkcji API rozwiązania AppArmor
+
+X
+Czy RSBAC to:
+	zestaw rozszerzający kontrolę uprawnień
+	poprawnie skonfigurowana polityka bezpieczeństwa
+	zestaw łat na jądro systemu Linux
+	domyślne uprawnienia systemowe
+
+X
+W RSBAC, czy każdy program może zmienić uprawnienia na inne niż te, na których został uruchomiony?
+	zgodę wydaje oficer bezpieczeństwa modyfikując odpowiednio politykę bezpieczeństwa
+	bezwzględnie nie
+	każdorazowo musi otrzymać zgodę oficera bezpieczeństwa
+	tak
+
+X
+W RSBAC, czy można zmienić uprawnienia do katalogu dla programu podczas jego działania?
+	nie jest to określone
+	istnieją takie możliwości
+	nie
+	jeśli program posiada taką możliwość (programista uwzględnił taką opcję)
+
+X
+Dlaczego do konfiguracji RSBAC'a wykorzystujemy użytkownika “secoff” o id=400 (lub innym)?
+	jest to konto administratora tylko o innym id
+	aby haker po włamaniu musiał korzystać z polecenia su, aby zmienić politykę bezpieczeństwa
+	aby konto administratora było niepotrzebne
+	aby rozdzielić funkcje administratora systemu i osoby odpowiedzialnej za bezpieczeństwo
+
+X
+W RSBAC, czy istnieje możliwość sprawdzenia dlaczego program nie ma uprawnień i jakich uprawnień jemu brakuje?
+	tylko poprzez sprawdzenie wpisów w logach, które są przesłane na zaufany komputer
+	poprzez sprawdzenie wpisów w logach systemowych
+	nie ma takiej możliwości
+	tylko poprzez sprawdzenie całej skonfigurowanej polityki bezpieczeństwa 
+
+X
+Usługa Active Directory to:
+	usługa zbierania informacji o ruchu sieciowym
+	usługa zarządzania zainstalowanym oprogramowaniem
+	usługa prezentacji logów systemowych
+	usługa katalogowa
+	usługa wymuszająca stosowania kryptografii asymetrycznej
+
+X
+AD umożliwia:
+	łatwe przejęcie komputera przez intruza
+	skomplikowane zarządzania dużą liczbą stanowisk komputerowych
+	pracę w heterogenicznym środowisku
+	łatwe zarządzania dużą liczbą stanowisk komputerowych 
+
+X
+GPO to:
+	Grupy Polityk Obiektów
+	Polityki Obiektów Grupowych
+	Obiekty Zasad Grup
+	Zasady Obiektów Grupowych
+	Grupy Zasad Obiektów
+
+X
+Czy możliwe jest (przy pomocy zasad grup):
+	Zablokowanie dostępu do aplikacji zainstalowanych przez użytkowników
+	 Usunięcie elementu Menu Start
+	Całkowite usunięcie Menu Start
+	Zablokowanie możliwość wylogowania się
+	Usunięcie oprogramowania zainstalowanego przez użytkownika
+
+X
+Zasady grup umożliwiają:
+	wymuszenie stosowania tunelu VPN w komunikacji z serwerem AD
+	wprowadzenia określonej konfiguracji komputera/pulpitu dla użytkownika/komputera
+	tworzenie tymczasowych użytkowników
+	wprowadzenia adresacji IP zgodnej z wymogami użytkownika
+	tworzenie automatycznych kopii zapasowych całego dysku twardego komputera
+
+X
+Przy pomocy zasad grup można instalować oprogramowanie, jeśli:
+	oprogramowanie ma plik instalacyjny (.msi)
+	oprogramowanie posiada w instalatorze możliwość instalacji sieciowej
+	oprogramowanie ma plik instalacyjny (.com)
+	oprogramowanie musi być instalowane lokalnego nośnika (np. CD, DVD)
+	bez żadnych warunków
+
+X
+Przy pomocy zasad grup można instalować oprogramowanie, jeśli:
+	jest dostępne na udostępnionym katalogu
+	użytkownik stanowiska nie wyraził sprzeciwu
+	oprogramowanie ma plik instalacyjny (.com)
+	oprogramowanie musi być instalowane lokalnego nośnika (np. CD, DVD)
+	bez żadnych warunków
+
+X
+Testowanie podatności aplikacji na atak XSS polegać może na:
+	podstawieniu do zapytania zapisanego wcześniej ciasteczka sesyjnego
+	próbie podstawienia arkusza styli, zawierającego kod JavaScript
+	próbie wstrzyknięcia kodu SQL
+	próbie wykonania zapisanego przez użytkownika kodu JavaScript
+
+X
+Test penetracyjny należy wykonywać:
+	rejestrując oraz raportując wyniki testów składowych
+	zawsze w siedzibie zamawiającego test
+	wyłączenie z dostępem do kodu źródłowego
+	zawsze zgodnie z określoną z góry metodologią
+
+X
+Testy penetracyjne należy wykonywać, ponieważ:
+	programiści często ukrywają tylne wejście do aplikacji (dla własnego użytku)
+	odkrywane są coraz nowsze metody ataku
+	Administratorzy systemów nie zabezpieczają w ogóle serwerów
+	programiści często pracują pod presją czasu, w wyniku czego zaniedbują kwestię zabezpieczeń
+
+X
+Testy penetracyjne należy wykonywać, ponieważ:
+	każde oprogramowanie powinno zostać wszechstronnie przetestowane
+	odkrywane są coraz nowsze metody ataku
+	programiści często ukrywają tylne wejście do aplikacji (dla własnego użytku)
+	błędy w aplikacji pojawiają się w trakcie użytkowania, niezależnie od jakości pracy programistów
+
+X
+Które określenie najlepiej opisuje test typu gray-box:
+	tester posiada dokumentację oraz pewne informacje o architekturze systemu, ale nie zna kodu źródłowego
+	tester nie wie nic o systemie przed przystąpieniem do testu
+	tester ma kontakt z programistami oraz pełny wgląd do kodu źródłowego
+	tester widzi jedynie publiczny interfejs aplikacji
+
+X
+Typowy atak SQL injection, który ma umożliwić wejście do systemu bez podawania hasła, to/Wskaż element ataku SQL injection, który może mieć na celu obejście uwierzytelniania:
+	' LIKE 'password'
+	' OR 1=1
+	1 AND sha1('password')
+	' AND 1=0
+
+Do błędów zabezpieczeń aplikacji internetowych zaliczamy:
+	atak typu phishing
+	możliwość wstrzyknięcia kodu SQL
+	możliwość wykonania złośliwego kodu JavaScript
+	atak typu man-in-the-middle
+
+X
+Do błędów zabezpieczeń aplikacji internetowych zaliczamy:
+	możliwość wykonania złośliwego kodu JavaScript
+	atak typu man-in-the-middle
+	nieprawidłowe zarządzanie sesją użytkownika
+	brute-force
+
+X
+Reverse shell
+	wymaga serwera nasłuchującego na hoście atakującego w celu odebrania połączenia z atakowanego systemu
+	pozwala obejść reguły zapór sieciowych blokujące połączenia przychodzące 
+
+X
+Jakie restrykcje wprowadza flaga Secure w definicji ciasteczka WWW?
+	dostęp do ciasteczka ma tylko oryginalna strona, która utworzyła ciasteczko
+	ciasteczko musiało zostać sprawdzone przez filtr SOP
+	do ciasteczka nie można uzyskać dostępu w skryptach
+	ciasteczko będzie wysłane do serwera tylko w tunelu kryptograficznym
+
+X
+Mechanizmem PAM można skonfigurować (wybierz jedną lub więcej):
+	Ograniczenia czasowe dostępu do systemu operacyjnego
+	procedurę zmiany danych uwierzytelniających 
+	sposób uwierzytelniania aplikacji
+	ograniczenie maksymalnej ilości procesów jakie może uruchomić użytkownik
+
+X
+Nazwa domenowa komputera a nazwa domeny Kerberos
+	to ten sam parametr
+	Musi być identyczna
+	musi być różna
+	nie musi, ale lepiej by była identyczna w przypadku wykorzystania klientów Windows
+
+X
+Które z wymienionych elementów są zawsze (bezwzględnie) współdzielone pomiędzy aplikacjami uruchomionymi w kontenerach dockera i aplikacjami bezpośrednio w systemie operacyjnym (Wybierz jedną lub więcej):
+	system plików
+	przestrzeń identyfikatorów użytkowników
+	przestrzeń identyfikatorów procesów
+	jądro systemu operacyjnego
+
+X
+W konfiguracji systemu Snort zapis: alert tcp any any -> 150.254.23.0/24 28 (content:”00 01 86 a5”; msg:”open(“/etc/passwd”)”;)
+	przedstawia regułę wyszukującą w pakiecie IP ciąg znaków: 00 01 86 a5
+	przedstawia regułę wyszukującą w segmencie TCP ciąg znaków: open(“/etc/passwd”)
+	przedstawia regułę analizują ruch skierowany na port 24
+	definiuje preprocesor dla reguł logowania użytkowników
+
+X
+Jakie metody uwierzytelniania oferuje protokół HTTP:
+	uwierzytelnianie klienta poprzez username token (username+password)
+	uwierzytelniania serwera poprzez certyfikat X.509
+	uwierzytelnianie klienta metodą digest (z użyciem funkcji skrótu)
+	obustronne uwierzytelnianie metodą Diffiego-Hellmana
+
+X
+Mechanizm TSIG w systemie DNSSEC wykorzystuje:
+	współdzielony tajny klucz
+	protokół TLS do transferu stref
+	parę kluczy asymetrycznych
+	funkcję mieszającą Diffiego-Hellmana
+
+X
+Wskaż opisy dotyczące podatności XXE (External XML Entity):
+	wynikają z niefrasobliwej obsługi przez parser XML encji odwołujących się np. do systemu plików
+	dotyczą ciasteczek XML 5 Global Storage Cookies
+	powstają zarówno w plikach XML, jak i XHTML
+	występują zarówno w plikach XML, jak i XHTML
+
+X
+Wybierz, które z pułapek są związane z Kerberos
+	nielegalne (nieuprawnione) odtwarzanie TGT dla nieautoryzowanych serwisów
+	personifikacja serwerów
+
+X
+Który opis dotyczy aplikacji związanej z chroot:
+	Aplikacja trzyma się twardych dowiązań poza poza sandboxem
+	Użytkownik root w sandboxie nie jest tym samym, co użytkownik OS root 
+
+X
+Które warunki powinno spełnić urządzenie sieciowe do użycia serwera Radius do AAA:
+	urządzenie powinno podzielić się “sekretem” z serwerem
+	jest wystarczającym, by połączyć się z serwerem za pomocą jego adresu IP
+
+X
+Który mechanizm systemowy może zostać wykorzystany przez dockera do poprawienia pracy kontenerów:
+	przestrzeń nazw użytkownika
+	chroot
+	właściwości POSIX
+
+X
+DNSKEY
+	to podpis cyfrowy klucza ZSK
+
+X
+Które z elementów iFrame może zostać dezaktywowany poprzez atrybuty sandboxa
+	rodzicielska ramka nawigacyjna
+	skrypty
+
+X
+Implementacją sandboxa jest
+	Polityka AppArmor
+
+X
+Które elementy aplikacji Web podlegają ochronie przez politykę SOP w przeglądarce:
+	komunikację między obiektami poprzez XMLHttpRequest
+	dostęp do ciasteczek ustawionych w innych dokumentach niezależnie od ich atrybuty domain
+	dostęp do elementów DOM w innych dokumentach
+	wywołania skryptów, w zależności od ich pochodzenia
+
+X
+Które z wymienionych elementów zawsze (bezwzględnie) współdzielone pomiędzy aplikacjami uruchomionymi w kontenerach dockera I aplikacjami bezpośrednio w systemie operacyjnym:
+	jądro systemu operacyjnego
+	system plików
+	przestrzeń Identyfikatorów użytkowników
+	przestrzeń Identyfikatorów procesów
+
+X
+które z wymienionych ataków SQL mogą posłużyć do pominięcia autoryzacji:
+	‘ or 1=1
+	‘ WHERE ‘password’ LIKE *
+	‘ AND sha256(‘password’,NULL)
+	‘AND 1=1
+	
+X
+Jakie informacje o koncie głównym posiada serwer kerberos:
+	tajny klucz symetryczny
+	Klucz publiczny
+	hasło
+	hash całego rekordu konta głównego

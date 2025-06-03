@@ -1,0 +1,6 @@
+X
+W celu dostosowania aplikacji do pracy z PAM konieczne jest:
+	skorzystanie z metod udostępnianych przez biblioteki PAM
+	skonfigurowanie polityki PAM dotyczącej danej aplikacji
+	samodzielna implementacja metod uwierzytelniania w aplikacji
+	posiadanie zaufanej trzeciej strony

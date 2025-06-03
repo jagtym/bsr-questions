@@ -1,0 +1,6 @@
+X
+Czy należy zawsze zmodyfikować aplikacje, które mają podlegać ochronie rozwiązaniem AppArmor:
+	nie, administrator podczas instalacji każdej zabezpieczanej aplikacji ma możliwość dynamicznej modyfikacji aplikacji i przystosowania jej do współpracy z AppArmor
+	nie, nie zawsze trzeba przystosowywać aplikację do współpracy z AppArmor
+	nie, nigdy nie należy modyfikować zabezpieczanej aplikacji aby współpracowała z AppArmor
+	tak, zawsze trzeba przystosować zabezpieczaną aplikację do współpracy z AppArmor

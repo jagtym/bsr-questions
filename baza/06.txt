@@ -1,0 +1,6 @@
+X
+Które z poniższych przypadków mogą potencjalnie skutkować bezpośrednim zagrożeniem dla uwierzytelniania w usłudze www:
+	użycie HTTP Basic Authentication
+	podatność SQLi w formularzu logowania
+	javascript obfuscation
+	pozyskanie ciasteczek danej domeny

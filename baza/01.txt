@@ -1,0 +1,6 @@
+X
+Proszę wskazać wszystkie te zasoby, które należą do tego samego źródła pochodzenia Web Origin (w kontekście Same Origin Policy), co którykolwiek z pozostałych:
+	https://login.victim.com/, którego document.domain = “login.victim.com”
+	http://victim.com/, którego document.domain = “victim.com”
+	http://blog.victim.com/, którego document.domain = “blog.victim.com”
+	http://cdn.victim.com/, którego document.domain = “victim.com”

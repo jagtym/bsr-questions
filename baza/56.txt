@@ -1,0 +1,6 @@
+X
+Testy penetracyjne należy wykonywać, ponieważ:
+	każde oprogramowanie powinno zostać wszechstronnie przetestowane
+	odkrywane są coraz nowsze metody ataku
+	programiści często ukrywają tylne wejście do aplikacji (dla własnego użytku)
+	błędy w aplikacji pojawiają się w trakcie użytkowania, niezależnie od jakości pracy programistów

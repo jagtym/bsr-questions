@@ -1,0 +1,6 @@
+X
+Skrót NAS oznacza:
+	network access storage
+	network access server
+	network authorization service
+	network accounting service

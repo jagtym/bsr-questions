@@ -1,0 +1,6 @@
+X
+Jakie metody uwierzytelniania oferuje protokół HTTP:
+	uwierzytelnianie klienta poprzez username token (username+password)
+	uwierzytelniania serwera poprzez certyfikat X.509
+	uwierzytelnianie klienta metodą digest (z użyciem funkcji skrótu)
+	obustronne uwierzytelnianie metodą Diffiego-Hellmana

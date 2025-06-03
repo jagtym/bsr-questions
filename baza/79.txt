@@ -1,0 +1,6 @@
+X
+które z wymienionych ataków SQL mogą posłużyć do pominięcia autoryzacji:
+	‘ or 1=1
+	‘ WHERE ‘password’ LIKE *
+	‘ AND sha256(‘password’,NULL)
+	‘AND 1=1

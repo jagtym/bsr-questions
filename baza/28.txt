@@ -1,0 +1,6 @@
+X
+Radius wykorzystuje komunikację sieciową opartą o protokół
+	TCP
+	ESP
+	UDP
+	ICMP

@@ -1,0 +1,4 @@
+X
+Które warunki powinno spełnić urządzenie sieciowe do użycia serwera Radius do AAA:
+	urządzenie powinno podzielić się “sekretem” z serwerem
+	jest wystarczającym, by połączyć się z serwerem za pomocą jego adresu IP

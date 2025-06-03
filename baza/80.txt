@@ -1,0 +1,6 @@
+X
+Jakie informacje o koncie głównym posiada serwer kerberos:
+	tajny klucz symetryczny
+	Klucz publiczny
+	hasło
+	hash całego rekordu konta głównego

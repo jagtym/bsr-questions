@@ -1,0 +1,6 @@
+X
+Typowy atak SQL injection, który ma umożliwić wejście do systemu bez podawania hasła, to/Wskaż element ataku SQL injection, który może mieć na celu obejście uwierzytelniania:
+	' LIKE 'password'
+	' OR 1=1
+	1 AND sha1('password')
+	' AND 1=0

@@ -1,0 +1,6 @@
+X
+Poprawnie działający mechanizm Same Origin Policy:
+	uniemożliwia atak SQLi dokonywany przez użytkownika
+	chroni aplikacją internetową przed atakiem Cross-Site Request Forgery
+	może być sterowany przez pewne pola nagłówka protokołu HTTP
+	uniemożliwia kradzież ciasteczek przez skrypty pochodzące z innej domeny

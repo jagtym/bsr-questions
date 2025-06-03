@@ -1,0 +1,6 @@
+X
+W konfiguracji systemu Snort zapis: alert tcp any any -> 150.254.23.0/24 28 (content:”00 01 86 a5”; msg:”open(“/etc/passwd”)”;)
+	przedstawia regułę wyszukującą w pakiecie IP ciąg znaków: 00 01 86 a5
+	przedstawia regułę wyszukującą w segmencie TCP ciąg znaków: open(“/etc/passwd”)
+	przedstawia regułę analizują ruch skierowany na port 24
+	definiuje preprocesor dla reguł logowania użytkowników

@@ -1,0 +1,7 @@
+X
+Czy możliwe jest (przy pomocy zasad grup):
+	Zablokowanie dostępu do aplikacji zainstalowanych przez użytkowników
+	 Usunięcie elementu Menu Start
+	Całkowite usunięcie Menu Start
+	Zablokowanie możliwość wylogowania się
+	Usunięcie oprogramowania zainstalowanego przez użytkownika

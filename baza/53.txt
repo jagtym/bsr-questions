@@ -1,0 +1,6 @@
+X
+Testowanie podatności aplikacji na atak XSS polegać może na:
+	podstawieniu do zapytania zapisanego wcześniej ciasteczka sesyjnego
+	próbie podstawienia arkusza styli, zawierającego kod JavaScript
+	próbie wstrzyknięcia kodu SQL
+	próbie wykonania zapisanego przez użytkownika kodu JavaScript

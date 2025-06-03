@@ -1,0 +1,6 @@
+X
+Radius to:
+	scentralizowany system zarządzający pracą punktów dostępowych WIFI
+	rodzaj systemu operacyjnego dla urządzeń sieciowych
+	rozproszony system uwierzytelniania
+	scentralizowany system implementujący model bezpieczeństwa AAA

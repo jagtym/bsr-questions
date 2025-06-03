@@ -1,0 +1,6 @@
+X
+Testy penetracyjne należy wykonywać, ponieważ:
+	programiści często ukrywają tylne wejście do aplikacji (dla własnego użytku)
+	odkrywane są coraz nowsze metody ataku
+	Administratorzy systemów nie zabezpieczają w ogóle serwerów
+	programiści często pracują pod presją czasu, w wyniku czego zaniedbują kwestię zabezpieczeń

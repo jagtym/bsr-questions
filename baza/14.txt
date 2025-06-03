@@ -1,0 +1,6 @@
+X
+Snort pozwala na:
+	dynamiczne tworzenie reguł
+	generowanie alertów
+	logowanie pakietów
+	dynamiczne wykorzystanie zapory sieciowej

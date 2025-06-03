@@ -1,0 +1,6 @@
+X
+Czy RSBAC to:
+	zestaw rozszerzający kontrolę uprawnień
+	poprawnie skonfigurowana polityka bezpieczeństwa
+	zestaw łat na jądro systemu Linux
+	domyślne uprawnienia systemowe

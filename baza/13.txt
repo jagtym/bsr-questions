@@ -1,0 +1,8 @@
+X
+Reguły ModSecurity:
+	mogą dynamicznie modyfikować reguły iptables
+	mogą przekierowywać żądania HTTP pod inne adresy
+	mogą być dopasowane do nadchodzących żądań HTTP na podstawie treści żądania
+	mogą być dopasowane do nadchodzących żądań HTTP na podstawie wartości pól nagłówka
+	mogą blokować odpowiedzi HTTP na podstawie wartości pól nagłówka
+	nie mogą uwzględniać stanu sesji lub innych relacji pomiędzy kolejnymi żądaniami, gdyż operują na pojedynczych żądaniach (HTTP jest protokołem bezstanowym)

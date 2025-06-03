@@ -1,0 +1,6 @@
+X
+Narzędzie nmap:
+	pozwala wykonać rekonesans infrastruktury sieciowej przez skanowanie
+	wykorzystuje skrypty i moduły pozwalający na przeprowadzenie dokładnego fingerprintingu usług sieciowych
+	jest transparentnym proxy HTTP pozwalającym na przechwytywanie i modyfikację zapytań HTTP
+	pozwala na przechwytywanie ruchu HTTPS po zainstalowaniu odpowiedniego certyfikatu

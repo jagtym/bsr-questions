@@ -1,0 +1,7 @@
+X
+TSIG to:
+	Podpis cyfrowy każdego rekordu strefy
+	Podpis cyfrowy specjalnego rekordu RRSIG
+	Klucz ZSK
+	Cyfrowy podpis pliku strefy
+	Klucz KSK

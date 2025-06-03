@@ -1,0 +1,3 @@
+X
+DNSKEY
+	to podpis cyfrowy klucza ZSK

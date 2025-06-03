@@ -1,0 +1,6 @@
+X
+DNSSEC. KSK to:
+	klucz przesyłany do nadrzędnego DNS-a
+	klucz do podpisywania całego pliku strefy
+	podpis cyfrowy klucza ZSK
+	podpis cyfrowy pliku strefy

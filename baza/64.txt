@@ -1,0 +1,6 @@
+X
+Nazwa domenowa komputera a nazwa domeny Kerberos
+	to ten sam parametr
+	Musi być identyczna
+	musi być różna
+	nie musi, ale lepiej by była identyczna w przypadku wykorzystania klientów Windows

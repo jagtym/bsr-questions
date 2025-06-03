@@ -1,0 +1,6 @@
+X
+W przypadku kontenerów środowiska Docker:
+	użytkownik root w kontenerze jest zawsze root-em w systemie gospodarza
+	użytkownik root w systemie gospodarza jest zawsze rootem w kontenerze
+	wszystkie kontenery uruchomione na tym samym gospodarzu zawsze widzą się nawzajem przez wewnętrzną sieć Docker
+	aplikacja uruchomiona w kontenerze może działać w ramach dowolnego konta użytkownika (nie tylko root)

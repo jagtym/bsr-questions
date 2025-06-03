@@ -1,0 +1,6 @@
+X
+Kerberos:
+	dane uwierzytelniające użytkowników przechowuje w plikach /etc/passwd oraz /etc/shadow
+	jest implementacją koncepcji SSO
+	do działania wymaga utworzenia bazy kluczy
+	jest systemem uwierzytelniania z zaufaną trzecią stroną

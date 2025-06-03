@@ -1,0 +1,8 @@
+X
+Wskaż funkcje języka JavaScript, które potencjalnie pozwalają wykonać dowolny kod tego języka przekazany jako argument:
+	prompt
+	eval
+	alert
+	setInterval
+	setTimeout
+	document.cookie()

@@ -1,0 +1,6 @@
+X
+Środowisko Docker pozwala
+	związać z uruchamianym kontenerem wybrany profil AppArmor
+	współdzielić między gospodarzem a kontenerem wybrany fragment systemu plików
+	propagować do kontenera ruch TCP i/lub UDP przychodzący na wybrane porty gospodarza
+	przydzielić kontenerowi wybrane systemowe uprawnienia administracyjne (capabilities)

@@ -1,0 +1,6 @@
+X
+AD umożliwia:
+	łatwe przejęcie komputera przez intruza
+	skomplikowane zarządzania dużą liczbą stanowisk komputerowych
+	pracę w heterogenicznym środowisku
+	łatwe zarządzania dużą liczbą stanowisk komputerowych 

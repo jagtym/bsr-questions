@@ -1,0 +1,6 @@
+X
+W RSBAC, czy istnieje możliwość sprawdzenia dlaczego program nie ma uprawnień i jakich uprawnień jemu brakuje?
+	tylko poprzez sprawdzenie wpisów w logach, które są przesłane na zaufany komputer
+	poprzez sprawdzenie wpisów w logach systemowych
+	nie ma takiej możliwości
+	tylko poprzez sprawdzenie całej skonfigurowanej polityki bezpieczeństwa 

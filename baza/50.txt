@@ -1,0 +1,7 @@
+X
+Zasady grup umożliwiają:
+	wymuszenie stosowania tunelu VPN w komunikacji z serwerem AD
+	wprowadzenia określonej konfiguracji komputera/pulpitu dla użytkownika/komputera
+	tworzenie tymczasowych użytkowników
+	wprowadzenia adresacji IP zgodnej z wymogami użytkownika
+	tworzenie automatycznych kopii zapasowych całego dysku twardego komputera

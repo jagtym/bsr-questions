@@ -1,0 +1,7 @@
+X
+Rekord RRSIG służy do:
+	przechowywanie klucza prywatnego, którym podpisana jest strefa
+	przechowywania podpisu całej strefy
+	przechowywania podpisu konkretnego rekordu
+	przechowywania klucza publicznego oraz jego podpisu (przez wyższego DNS'a)
+	przechowywania klucza publicznego, którym podpisana jest strefa

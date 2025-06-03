@@ -1,0 +1,7 @@
+X
+DNSSEC. ZSK to:
+	Klucz przesyłany do nadrzędnego DNSa
+	Klucz do podpisywania wszystkich rekordów strefy
+	podpis cyfrowy pliku strefy
+	podpis cyfrowy klucza KSK
+	klucz do podpisywania całego pliku strefy

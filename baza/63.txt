@@ -1,0 +1,6 @@
+X
+Mechanizmem PAM można skonfigurować (wybierz jedną lub więcej):
+	Ograniczenia czasowe dostępu do systemu operacyjnego
+	procedurę zmiany danych uwierzytelniających 
+	sposób uwierzytelniania aplikacji
+	ograniczenie maksymalnej ilości procesów jakie może uruchomić użytkownik

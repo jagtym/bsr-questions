@@ -1,0 +1,6 @@
+X
+Mechanizm chroot nie będzie skuteczny w przypadku:
+	separacji uprawnień poprzez zmianę katalogu głównego działającego programu
+	uwięzienia procesu działającego na prawach superużytkownika (root)
+	uruchamiania aplikacji 32-bit na procesorach 64-bit
+	testowania aplikacji przez ataki XSS

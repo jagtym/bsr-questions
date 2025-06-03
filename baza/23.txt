@@ -1,0 +1,7 @@
+X
+Rekord DNSKEY służy do:
+	podpisane są nim rekordy typu RRSIG
+	przechowywania podpisu całej strefy
+	przechowywania klucza publicznego
+	podpisane są nim wszystkie rekordy pliku strefy
+	przechowywanie klucza prywatnego

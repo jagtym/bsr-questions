@@ -1,0 +1,6 @@
+X
+Polityka AppArmora pozwala dla konkretnej aplikacji zdefiniować:
+	zezwolenia na uruchamianie innych wybranych aplikacji w ramach tego samego profilu
+	zezwolenia na uruchamianie innych wybranych aplikacji w ramach innego profilu
+	prawa dostępu aplikacji do poszczególnych zasobów
+	wybrane systemowe uprawnienia administracyjne (capabilities) przydzielane procesowi aplikacyjnemu

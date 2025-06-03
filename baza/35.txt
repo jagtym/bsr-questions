@@ -1,0 +1,6 @@
+X
+Profil AppArmor to:
+	wynik działania funkcji API AppArmor, która analizuje komunikację IPC
+	plik tekstowy zawierający uprawnienia dla zabezpieczanej aplikacji
+	program wykonywalny, który analizuje wywołania funkcji systemowych zabezpieczanej aplikacji
+	specjalne uprawnienie dla zabezpieczanej aplikacji

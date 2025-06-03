@@ -1,0 +1,6 @@
+X
+Do błędów zabezpieczeń aplikacji internetowych zaliczamy:
+	możliwość wykonania złośliwego kodu JavaScript
+	atak typu man-in-the-middle
+	nieprawidłowe zarządzanie sesją użytkownika
+	brute-force

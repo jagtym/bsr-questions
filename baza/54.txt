@@ -1,0 +1,6 @@
+X
+Test penetracyjny należy wykonywać:
+	rejestrując oraz raportując wyniki testów składowych
+	zawsze w siedzibie zamawiającego test
+	wyłączenie z dostępem do kodu źródłowego
+	zawsze zgodnie z określoną z góry metodologią

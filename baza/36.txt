@@ -1,0 +1,7 @@
+X
+Profil AppArmor
+	automatycznie wygenerowany log zawierający wywołania systemowe monitorowanej aplikacji
+	program analizujący wywołania funkcji systemowych monitorującej aplikacji
+	część polityk AppArmor związana z konkretną aplikacją
+	plik tekstowy definiujący uprawnienia wybranej aplikacji
+
