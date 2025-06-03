@@ -1,4 +1,4 @@
-X0101
+X1101
 Testy penetracyjne należy wykonywać, ponieważ:
 	programiści często ukrywają tylne wejście do aplikacji (dla własnego użytku)
 	odkrywane są coraz nowsze metody ataku
