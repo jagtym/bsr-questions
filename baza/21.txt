@@ -1,4 +1,4 @@
-X0011
+X1100
 Narzędzie nmap:
 	pozwala wykonać rekonesans infrastruktury sieciowej przez skanowanie
 	wykorzystuje skrypty i moduły pozwalający na przeprowadzenie dokładnego fingerprintingu usług sieciowych
